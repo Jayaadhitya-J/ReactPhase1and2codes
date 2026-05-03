@@ -1,0 +1,15 @@
+.accordian{
+    width: 300px;
+}
+
+.accordian-button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordian-content{
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 5px;
+}

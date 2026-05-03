@@ -1,0 +1,36 @@
+.badge {
+    border-radius: 12px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.success {
+    background-color: #e8f7ee;
+    color: #167a3a;
+}
+
+.warning {
+    background-color: #fff5d6;
+    color: #946200;
+}
+
+.error {
+    background-color: #fde8e8;
+    color: #b42318;
+}
+
+.sm {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.md {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.lg {
+    font-size: 16px;
+    padding: 8px 12px;
+}

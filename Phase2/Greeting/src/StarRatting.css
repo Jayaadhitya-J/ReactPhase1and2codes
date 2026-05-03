@@ -1,0 +1,29 @@
+.star-rating-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.star {
+    border: 0;
+    background: transparent;
+    color: #b7b7b7;
+    cursor: pointer;
+    font-size: 32px;
+    line-height: 1;
+    padding: 0;
+}
+
+.star.filled {
+    color: #f5b301;
+}
+
+.star-rating-wrapper p {
+    margin: 0;
+}
