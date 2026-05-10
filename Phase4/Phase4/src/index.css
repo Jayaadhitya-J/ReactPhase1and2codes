@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f7f9;
+  color: #1d2733;
+}
+
+body.dark {
+  background: #181c20;
+  color: #f6f7f9;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 1px solid #c6ccd3;
+  border-radius: 6px;
+  padding: 0.65rem 0.9rem;
+  background: #ffffff;
+  color: #1d2733;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #5f7fda;
+}
+
+button[aria-pressed="true"] {
+  background: #244fbc;
+  color: #ffffff;
+  border-color: #244fbc;
+}
+
+input {
+  width: min(100%, 420px);
+  border: 1px solid #c6ccd3;
+  border-radius: 6px;
+  padding: 0.75rem 0.85rem;
+}
+
+.app-shell {
+  width: min(900px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.view-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-panel {
+  padding: 1.5rem 0;
+}
+
+.feature-panel h1,
+.feature-panel h2 {
+  margin-top: 0;
+}
+
+.tall-panel {
+  min-height: 140vh;
+}
+
+.scroll-track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 6px;
+  background: #dfe4ea;
+}
+
+.scroll-progress {
+  height: 100%;
+  background: #244fbc;
+  transition: width 0.16s ease-out;
+}
